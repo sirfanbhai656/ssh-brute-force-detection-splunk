@@ -1,0 +1,360 @@
+2026-11-03T07:43:12.142580-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T07:43:19.027832-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-11-03T07:43:19.028462-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T07:43:19.137480-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T07:43:32.210303-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/tcp
+2026-11-03T07:43:32.211243-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T07:43:32.455134-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T07:43:55.012049-05:00 kali sshd-session[3386]: Connection closed by 192.168.231.105 port 52148 [preauth]
+2026-11-03T07:44:30.279287-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-03T07:44:30.280802-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T07:45:01.952962-05:00 kali CRON[3398]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T07:45:01.957959-05:00 kali CRON[3398]: pam_unix(cron:session): session closed for user root
+2026-11-03T07:45:08.610724-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T07:45:13.555357-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+2026-11-03T07:45:13.559049-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T07:45:13.591175-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T07:48:53.962312-05:00 kali sshd-session[3420]: Accepted password for kali from 192.168.231.105 port 41978 ssh2
+2026-11-03T07:48:53.974105-05:00 kali sshd-session[3420]: pam_unix(sshd:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-03T07:48:53.978485-05:00 kali systemd-logind[650]: New session '8' of user 'kali' with class 'user' and type 'tty'.
+2026-11-03T07:52:48.683369-05:00 kali sshd-session[3420]: syslogin_perform_logout: logout() returned an error
+2026-11-03T07:52:48.685924-05:00 kali sshd-session[3428]: Received disconnect from 192.168.231.105 port 41978:11: disconnected by user
+2026-11-03T07:52:48.688843-05:00 kali sshd-session[3428]: Disconnected from user kali 192.168.231.105 port 41978
+2026-11-03T07:52:48.690391-05:00 kali sshd-session[3420]: pam_unix(sshd:session): session closed for user kali
+2026-11-03T07:52:48.701118-05:00 kali systemd-logind[650]: Session 8 logged out. Waiting for processes to exit.
+2026-11-03T07:52:48.701284-05:00 kali systemd-logind[650]: Removed session 8.
+2026-11-03T07:53:00.899473-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2026-11-03T07:53:00.902290-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T07:53:00.913396-05:00 kali su[3539]: (to root) root on pts/1
+2026-11-03T07:53:00.914080-05:00 kali su[3539]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T07:53:23.097490-05:00 kali sshd-session[3578]: Accepted password for kali from 192.168.231.105 port 44624 ssh2
+2026-11-03T07:53:23.112979-05:00 kali sshd-session[3578]: pam_unix(sshd:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-03T07:53:23.123558-05:00 kali systemd-logind[650]: New session '9' of user 'kali' with class 'user' and type 'tty'.
+2026-11-03T08:15:30.682378-05:00 kali CRON[4143]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:15:30.688633-05:00 kali CRON[4143]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:17:01.696713-05:00 kali CRON[4341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:17:01.701115-05:00 kali CRON[4341]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:20:35.689162-05:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-03T08:20:35.692743-05:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-03T08:20:50.702917-05:00 kali sudo:     kali : TTY=pts/3 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2026-11-03T08:20:50.704853-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T08:20:50.712523-05:00 kali su[4570]: (to root) root on pts/4
+2026-11-03T08:20:50.712726-05:00 kali su[4570]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T08:21:06.283659-05:00 kali su[4570]: pam_unix(su:session): session closed for user root
+2026-11-03T08:21:06.287487-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T08:25:01.759844-05:00 kali CRON[7912]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:25:01.766258-05:00 kali CRON[7912]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:26:50.110071-05:00 kali sshd-session[3586]: Received disconnect from 192.168.231.105 port 44624:11: disconnected by user
+2026-11-03T08:26:50.122752-05:00 kali sshd-session[3578]: syslogin_perform_logout: logout() returned an error
+2026-11-03T08:26:50.123010-05:00 kali sshd-session[3586]: Disconnected from user kali 192.168.231.105 port 44624
+2026-11-03T08:26:50.123213-05:00 kali sshd-session[3578]: pam_unix(sshd:session): session closed for user kali
+2026-11-03T08:26:50.136707-05:00 kali systemd-logind[650]: Session 9 logged out. Waiting for processes to exit.
+2026-11-03T08:26:50.140265-05:00 kali systemd-logind[650]: Removed session 9.
+2026-11-03T08:26:56.607755-05:00 kali unix_chkpwd[8185]: password check failed for user (kali)
+2026-11-03T08:26:56.608217-05:00 kali sshd-session[8179]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105  user=kali
+2026-11-03T08:26:56.608326-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-03T08:26:56.608390-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-03T08:26:56.608418-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-11-03T08:26:56.608443-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'kali')
+2026-11-03T08:26:58.873870-05:00 kali sshd-session[8179]: Failed password for kali from 192.168.231.105 port 56742 ssh2
+2026-11-03T08:27:03.570220-05:00 kali unix_chkpwd[8198]: password check failed for user (kali)
+2026-11-03T08:27:03.570661-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-03T08:27:03.570730-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-03T08:27:03.570829-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-11-03T08:27:03.570916-05:00 kali sshd-session[8179]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'kali')
+2026-11-03T08:27:05.020818-05:00 kali sshd-session[8179]: Failed password for kali from 192.168.231.105 port 56742 ssh2
+2026-11-03T08:27:09.278094-05:00 kali sshd-session[8179]: Accepted password for kali from 192.168.231.105 port 56742 ssh2
+2026-11-03T08:27:09.305338-05:00 kali sshd-session[8179]: pam_unix(sshd:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-03T08:27:09.314117-05:00 kali systemd-logind[650]: New session '13' of user 'kali' with class 'user' and type 'tty'.
+2026-11-03T08:31:57.701527-05:00 kali sshd-session[8179]: syslogin_perform_logout: logout() returned an error
+2026-11-03T08:31:57.704041-05:00 kali sshd-session[8210]: Received disconnect from 192.168.231.105 port 56742:11: disconnected by user
+2026-11-03T08:31:57.705129-05:00 kali sshd-session[8210]: Disconnected from user kali 192.168.231.105 port 56742
+2026-11-03T08:31:57.705673-05:00 kali sshd-session[8179]: pam_unix(sshd:session): session closed for user kali
+2026-11-03T08:31:57.713397-05:00 kali systemd-logind[650]: Session 13 logged out. Waiting for processes to exit.
+2026-11-03T08:31:57.717000-05:00 kali systemd-logind[650]: Removed session 13.
+2026-11-03T08:35:01.775002-05:00 kali CRON[9493]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:35:01.776861-05:00 kali CRON[9493]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:35:30.407715-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-03T08:35:30.407955-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T08:35:31.669663-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T08:38:46.983658-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-11-03T08:38:46.985231-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T08:38:52.087449-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T08:38:55.557563-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-11-03T08:38:55.557850-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T08:39:01.785855-05:00 kali CRON[10708]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:39:01.787375-05:00 kali CRON[10708]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:44:32.097570-05:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-03T08:44:32.101352-05:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-03T08:44:51.518949-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T08:45:01.795287-05:00 kali CRON[11401]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:45:01.797272-05:00 kali CRON[11401]: pam_unix(cron:session): session closed for user root
+2026-11-03T08:47:17.701141-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-11-03T08:47:17.701660-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T08:47:53.074842-05:00 kali sshd-session[11743]: Received disconnect from 192.168.231.105 port 41358:11: Bye Bye [preauth]
+2026-11-03T08:47:53.077382-05:00 kali sshd-session[11743]: Disconnected from authenticating user kali 192.168.231.105 port 41358 [preauth]
+2026-11-03T08:47:53.472851-05:00 kali unix_chkpwd[11747]: password check failed for user (kali)
+2026-11-03T08:47:53.473601-05:00 kali sshd-session[11745]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105  user=kali
+2026-11-03T08:47:53.473875-05:00 kali sshd-session[11745]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-03T08:47:53.474120-05:00 kali sshd-session[11745]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-03T08:47:53.474355-05:00 kali sshd-session[11745]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-11-03T08:47:53.477047-05:00 kali sshd-session[11745]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'kali')
+2026-11-03T08:47:55.311838-05:00 kali sshd-session[11745]: Failed password for kali from 192.168.231.105 port 41374 ssh2
+2026-11-03T08:47:56.565867-05:00 kali sshd-session[11745]: Connection closed by authenticating user kali 192.168.231.105 port 41374 [preauth]
+2026-11-03T08:51:15.426826-05:00 kali sshd-session[12194]: Received disconnect from 192.168.231.105 port 48310:11: Bye Bye [preauth]
+2026-11-03T08:51:15.427983-05:00 kali sshd-session[12194]: Disconnected from authenticating user kali 192.168.231.105 port 48310 [preauth]
+2026-11-03T08:51:15.827521-05:00 kali unix_chkpwd[12228]: password check failed for user (kali)
+2026-11-03T08:51:15.828206-05:00 kali sshd-session[12226]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105  user=kali
+2026-11-03T08:51:15.828273-05:00 kali sshd-session[12226]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-03T08:51:15.828296-05:00 kali sshd-session[12226]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-03T08:51:15.828315-05:00 kali sshd-session[12226]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-11-03T08:51:15.828339-05:00 kali sshd-session[12226]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'kali')
+2026-11-03T08:51:18.117904-05:00 kali sshd-session[12226]: Failed password for kali from 192.168.231.105 port 48320 ssh2
+2026-11-03T08:51:18.925292-05:00 kali sshd-session[12226]: Connection closed by authenticating user kali 192.168.231.105 port 48320 [preauth]
+2026-11-03T08:52:36.055202-05:00 kali sshd-session[12364]: Received disconnect from 192.168.231.105 port 40886:11: Bye Bye [preauth]
+2026-11-03T08:52:36.056869-05:00 kali sshd-session[12364]: Disconnected from authenticating user kali 192.168.231.105 port 40886 [preauth]
+2026-11-03T08:52:36.447818-05:00 kali unix_chkpwd[12368]: password check failed for user (kali)
+2026-11-03T08:52:36.448344-05:00 kali sshd-session[12366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105  user=kali
+2026-11-03T08:52:36.448413-05:00 kali sshd-session[12366]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-03T08:52:36.448448-05:00 kali sshd-session[12366]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-03T08:52:36.448476-05:00 kali sshd-session[12366]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-11-03T08:52:36.448500-05:00 kali sshd-session[12366]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'kali')
+2026-11-03T08:52:38.650927-05:00 kali sshd-session[12366]: Failed password for kali from 192.168.231.105 port 40902 ssh2
+2026-11-03T08:52:39.547731-05:00 kali sshd-session[12366]: Connection closed by authenticating user kali 192.168.231.105 port 40902 [preauth]
+2026-11-03T08:55:01.819267-05:00 kali CRON[12779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T08:55:01.837299-05:00 kali CRON[12779]: pam_unix(cron:session): session closed for user root
+2026-11-03T09:05:01.848044-05:00 kali CRON[13652]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T09:05:01.850537-05:00 kali CRON[13652]: pam_unix(cron:session): session closed for user root
+2026-11-03T09:09:01.866659-05:00 kali CRON[13990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T09:09:01.872673-05:00 kali CRON[13990]: pam_unix(cron:session): session closed for user root
+2026-11-03T09:10:23.435635-05:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-11-03T09:10:23.439640-05:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-11-03T09:10:36.867090-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T09:10:49.156016-05:00 kali systemd-logind[650]: The system will power off now!
+2026-11-03T09:10:49.171278-05:00 kali systemd-logind[650]: System is powering down.
+2026-11-03T09:10:49.241621-05:00 kali ssh-agent[1567]: exiting on signal 15
+2026-11-03T09:10:49.289819-05:00 kali lightdm: pam_unix(lightdm:session): session closed for user kali
+2026-11-03T14:07:19.473221-05:00 kali systemd-logind[639]: New seat seat0.
+2026-11-03T14:07:20.783735-05:00 kali systemd-logind[639]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-03T14:07:20.791269-05:00 kali systemd-logind[639]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-03T14:07:20.856018-05:00 kali systemd-logind[639]: Watching system buttons on /dev/input/event6 (VMware VMware Virtual USB Keyboard)
+2026-11-03T14:07:22.152143-05:00 kali sshd[1105]: Server listening on 0.0.0.0 port 22.
+2026-11-03T14:07:22.152296-05:00 kali sshd[1105]: Server listening on :: port 22.
+2026-11-03T14:07:26.360907-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-03T14:07:26.436320-05:00 kali systemd-logind[639]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-03T14:07:26.498660-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-11-03T14:07:26.500176-05:00 kali systemd-logind[639]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-03T14:07:26.709042-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-03T14:07:43.008392-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-11-03T14:07:43.008499-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-11-03T14:07:43.054303-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-03T14:07:43.055681-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-03T14:07:43.067976-05:00 kali systemd-logind[639]: Removed session c1.
+2026-11-03T14:07:43.070981-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-03T14:07:43.107007-05:00 kali systemd-logind[639]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+2026-11-03T14:07:43.151371-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-03T14:07:43.152895-05:00 kali systemd-logind[639]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+2026-11-03T14:07:43.329315-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-11-03T14:07:53.468626-05:00 kali systemd-logind[639]: Removed session 1.
+2026-11-03T14:08:04.095957-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2026-11-03T14:08:04.097034-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-03T14:08:04.110431-05:00 kali su[2429]: (to root) root on pts/1
+2026-11-03T14:08:04.111271-05:00 kali su[2429]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T14:08:48.914996-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a
+2026-11-03T14:08:48.915514-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-03T14:09:01.546848-05:00 kali CRON[2550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:09:01.554180-05:00 kali CRON[2550]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:11:47.785095-05:00 kali groupadd[3889]: group added to /etc/group: name=wazuh-indexer, GID=985
+2026-11-03T14:11:47.786990-05:00 kali groupadd[3889]: group added to /etc/gshadow: name=wazuh-indexer
+2026-11-03T14:11:47.787590-05:00 kali groupadd[3889]: new group: name=wazuh-indexer, GID=985
+2026-11-03T14:11:47.802254-05:00 kali useradd[3894]: new user: name=wazuh-indexer, UID=997, GID=985, home=/home/wazuh-indexer, shell=/sbin/nologin, from=/dev/pts/3
+2026-11-03T14:13:45.771872-05:00 kali groupadd[4641]: group added to /etc/group: name=wazuh, GID=140
+2026-11-03T14:13:45.772428-05:00 kali groupadd[4641]: group added to /etc/gshadow: name=wazuh
+2026-11-03T14:13:45.773045-05:00 kali groupadd[4641]: new group: name=wazuh, GID=140
+2026-11-03T14:13:45.842302-05:00 kali useradd[4653]: new user: name=wazuh, UID=135, GID=140, home=/var/ossec, shell=/sbin/nologin, from=/dev/pts/3
+2026-11-03T14:15:01.622088-05:00 kali CRON[55948]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:15:01.655491-05:00 kali CRON[55948]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:15:38.379526-05:00 kali groupadd[56346]: group added to /etc/group: name=wazuh-dashboard, GID=141
+2026-11-03T14:15:38.387413-05:00 kali groupadd[56346]: group added to /etc/gshadow: name=wazuh-dashboard
+2026-11-03T14:15:38.389884-05:00 kali groupadd[56346]: new group: name=wazuh-dashboard, GID=141
+2026-11-03T14:15:38.838689-05:00 kali useradd[56363]: new user: name=wazuh-dashboard, UID=136, GID=141, home=/nonexistent, shell=/bin/false, from=/dev/pts/3
+2026-11-03T14:16:45.005741-05:00 kali runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=136) by kali(uid=0)
+2026-11-03T14:16:45.513677-05:00 kali runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-11-03T14:16:45.519099-05:00 kali runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=136) by kali(uid=0)
+2026-11-03T14:16:45.987387-05:00 kali runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-11-03T14:16:45.992896-05:00 kali runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=136) by kali(uid=0)
+2026-11-03T14:16:46.394652-05:00 kali runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-11-03T14:17:01.669806-05:00 kali CRON[58062]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:17:01.673590-05:00 kali CRON[58062]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:17:38.425652-05:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-11-03T14:25:01.733412-05:00 kali CRON[63622]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:25:01.749784-05:00 kali CRON[63622]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:35:01.776092-05:00 kali CRON[64452]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:35:01.782648-05:00 kali CRON[64452]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:39:01.832462-05:00 kali CRON[64963]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:39:01.839234-05:00 kali CRON[64963]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:45:01.884688-05:00 kali CRON[65809]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-03T14:45:01.896203-05:00 kali CRON[65809]: pam_unix(cron:session): session closed for user root
+2026-11-03T14:48:53.442492-05:00 kali systemd-logind[639]: The system will power off now!
+2026-11-03T14:48:53.450682-05:00 kali systemd-logind[639]: System is powering down.
+2026-11-03T14:48:53.788808-05:00 kali ssh-agent[1485]: exiting on signal 15
+2026-11-03T14:48:53.852599-05:00 kali su[2429]: pam_unix(su:session): session closed for user root
+2026-11-04T05:09:41.277540-05:00 kali systemd-logind[714]: New seat seat0.
+2026-11-04T05:09:42.962552-05:00 kali systemd-logind[714]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-04T05:09:42.981066-05:00 kali systemd-logind[714]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-04T05:09:43.133424-05:00 kali systemd-logind[714]: Watching system buttons on /dev/input/event6 (VMware VMware Virtual USB Keyboard)
+2026-11-04T05:09:43.933856-05:00 kali sshd[1206]: Server listening on 0.0.0.0 port 22.
+2026-11-04T05:09:43.933926-05:00 kali sshd[1206]: Server listening on :: port 22.
+2026-11-04T05:09:47.494343-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T05:09:47.519983-05:00 kali systemd-logind[714]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-04T05:09:47.702278-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-11-04T05:09:47.718535-05:00 kali systemd-logind[714]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-04T05:09:48.050788-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T05:09:59.468730-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-11-04T05:09:59.469028-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-11-04T05:09:59.789198-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T05:09:59.789415-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T05:09:59.810278-05:00 kali systemd-logind[714]: Removed session c1.
+2026-11-04T05:09:59.862966-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T05:09:59.958574-05:00 kali systemd-logind[714]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+2026-11-04T05:10:00.109020-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T05:10:00.119460-05:00 kali systemd-logind[714]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+2026-11-04T05:10:00.900646-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-11-04T05:10:12.854734-05:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-11-04T05:10:12.856544-05:00 kali systemd-logind[714]: Removed session 1.
+2026-11-04T05:11:25.951110-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/opt/splunk/bin ; USER=root ; COMMAND=/usr/bin/su
+2026-11-04T05:11:25.968364-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-04T05:11:25.971409-05:00 kali su[7717]: (to root) root on pts/1
+2026-11-04T05:11:25.973903-05:00 kali su[7717]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-04T05:15:01.955262-05:00 kali CRON[11927]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T05:15:01.972894-05:00 kali CRON[11927]: pam_unix(cron:session): session closed for user root
+2026-11-04T05:17:02.002724-05:00 kali CRON[12417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T05:17:02.048220-05:00 kali CRON[12417]: pam_unix(cron:session): session closed for user root
+2026-11-04T05:18:20.028949-05:00 kali systemd-logind[714]: The system will power off now!
+2026-11-04T05:18:20.058603-05:00 kali systemd-logind[714]: System is powering down.
+2026-11-04T05:18:20.087613-05:00 kali ssh-agent[2959]: exiting on signal 15
+2026-11-04T05:18:20.278523-05:00 kali su[7717]: pam_unix(su:session): session closed for user root
+2026-11-04T06:01:26.910827-05:00 kali systemd-logind[593]: New seat seat0.
+2026-11-04T06:01:28.667284-05:00 kali systemd-logind[593]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-04T06:01:28.670830-05:00 kali systemd-logind[593]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-04T06:01:28.755578-05:00 kali systemd-logind[593]: Watching system buttons on /dev/input/event6 (VMware VMware Virtual USB Keyboard)
+2026-11-04T06:01:29.995483-05:00 kali sshd[1152]: Server listening on 0.0.0.0 port 22.
+2026-11-04T06:01:29.995713-05:00 kali sshd[1152]: Server listening on :: port 22.
+2026-11-04T06:01:32.485860-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T06:01:32.500392-05:00 kali systemd-logind[593]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-04T06:01:32.605988-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-11-04T06:01:32.609575-05:00 kali systemd-logind[593]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-04T06:01:32.963252-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T06:01:42.229106-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-11-04T06:01:42.229179-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-11-04T06:01:42.388999-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T06:01:42.389174-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T06:01:42.397998-05:00 kali systemd-logind[593]: Removed session c1.
+2026-11-04T06:01:42.428604-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T06:01:42.468100-05:00 kali systemd-logind[593]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+2026-11-04T06:01:42.563094-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T06:01:42.563641-05:00 kali systemd-logind[593]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+2026-11-04T06:01:43.321658-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-11-04T06:01:52.767044-05:00 kali systemd-logind[593]: Removed session 1.
+2026-11-04T06:02:55.783396-05:00 kali systemd-logind[894]: New seat seat0.
+2026-11-04T06:02:57.567060-05:00 kali systemd-logind[894]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-04T06:02:57.570076-05:00 kali systemd-logind[894]: Watching system buttons on /dev/input/event6 (VMware VMware Virtual USB Keyboard)
+2026-11-04T06:02:57.587982-05:00 kali systemd-logind[894]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-04T06:02:57.786529-05:00 kali sshd[1104]: Server listening on 0.0.0.0 port 22.
+2026-11-04T06:02:57.786699-05:00 kali sshd[1104]: Server listening on :: port 22.
+2026-11-04T06:03:02.713175-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T06:03:02.747972-05:00 kali systemd-logind[894]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-04T06:03:02.899625-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-11-04T06:03:02.901078-05:00 kali systemd-logind[894]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-04T06:03:03.149936-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-04T06:03:10.610905-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-11-04T06:03:10.610979-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-11-04T06:03:10.733529-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T06:03:10.733655-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-04T06:03:10.734512-05:00 kali systemd-logind[894]: Removed session c1.
+2026-11-04T06:03:10.753515-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T06:03:10.795998-05:00 kali systemd-logind[894]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+2026-11-04T06:03:10.902882-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T06:03:10.904440-05:00 kali systemd-logind[894]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+2026-11-04T06:03:11.645756-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-11-04T06:03:21.635604-05:00 kali systemd-logind[894]: Removed session 1.
+2026-11-04T06:03:27.555938-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2026-11-04T06:03:27.591762-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-04T06:03:27.607113-05:00 kali su[3855]: (to root) root on pts/1
+2026-11-04T06:03:27.618555-05:00 kali su[3855]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-04T06:04:27.762482-05:00 kali sshd-session[7840]: Invalid user Kali from 192.168.231.105 port 55748
+2026-11-04T06:04:30.947676-05:00 kali sshd-session[7840]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-04T06:04:30.948143-05:00 kali sshd-session[7840]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105 
+2026-11-04T06:04:30.948220-05:00 kali sshd-session[7840]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-04T06:04:30.948279-05:00 kali sshd-session[7840]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-04T06:04:33.236114-05:00 kali sshd-session[7840]: Failed password for invalid user Kali from 192.168.231.105 port 55748 ssh2
+2026-11-04T06:04:37.853230-05:00 kali sshd-session[7840]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-04T06:04:37.853652-05:00 kali sshd-session[7840]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-04T06:04:37.853931-05:00 kali sshd-session[7840]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-04T06:04:39.683347-05:00 kali sshd-session[7840]: Failed password for invalid user Kali from 192.168.231.105 port 55748 ssh2
+2026-11-04T06:04:46.656574-05:00 kali sshd-session[7840]: Connection closed by invalid user Kali 192.168.231.105 port 55748 [preauth]
+2026-11-04T06:04:46.657721-05:00 kali sshd-session[7840]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105 
+2026-11-04T06:04:57.249103-05:00 kali sshd-session[8556]: Invalid user Kali from 192.168.231.105 port 60864
+2026-11-04T06:05:01.510531-05:00 kali CRON[8744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T06:05:01.522744-05:00 kali CRON[8744]: pam_unix(cron:session): session closed for user root
+2026-11-04T06:05:02.424792-05:00 kali sshd-session[8556]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-04T06:05:02.425363-05:00 kali sshd-session[8556]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105 
+2026-11-04T06:05:02.425537-05:00 kali sshd-session[8556]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-04T06:05:02.425680-05:00 kali sshd-session[8556]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-04T06:05:04.519281-05:00 kali sshd-session[8556]: Failed password for invalid user Kali from 192.168.231.105 port 60864 ssh2
+2026-11-04T06:05:18.945124-05:00 kali sshd-session[8556]: Connection closed by invalid user Kali 192.168.231.105 port 60864 [preauth]
+2026-11-04T06:05:51.175221-05:00 kali sshd-session[9930]: Accepted password for kali from 192.168.231.105 port 38138 ssh2
+2026-11-04T06:05:51.182795-05:00 kali sshd-session[9930]: pam_unix(sshd:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-04T06:05:51.191640-05:00 kali systemd-logind[894]: New session '5' of user 'kali' with class 'user' and type 'tty'.
+2026-11-04T06:07:31.587739-05:00 kali sshd-session[9930]: syslogin_perform_logout: logout() returned an error
+2026-11-04T06:07:31.590919-05:00 kali sshd-session[9944]: Received disconnect from 192.168.231.105 port 38138:11: disconnected by user
+2026-11-04T06:07:31.615570-05:00 kali sshd-session[9944]: Disconnected from user kali 192.168.231.105 port 38138
+2026-11-04T06:07:31.615761-05:00 kali sshd-session[9930]: pam_unix(sshd:session): session closed for user kali
+2026-11-04T06:07:31.628932-05:00 kali systemd-logind[894]: Session 5 logged out. Waiting for processes to exit.
+2026-11-04T06:07:31.631641-05:00 kali systemd-logind[894]: Removed session 5.
+2026-11-04T06:07:36.934235-05:00 kali sshd-session[11017]: Invalid user irfan-attcker from 192.168.231.105 port 39580
+2026-11-04T06:07:36.960576-05:00 kali sshd-session[11017]: Received disconnect from 192.168.231.105 port 39580:11: Bye Bye [preauth]
+2026-11-04T06:07:36.960714-05:00 kali sshd-session[11017]: Disconnected from invalid user irfan-attcker 192.168.231.105 port 39580 [preauth]
+2026-11-04T06:07:37.268697-05:00 kali sshd-session[11019]: Invalid user irfan-attcker from 192.168.231.105 port 39592
+2026-11-04T06:07:37.271076-05:00 kali sshd-session[11019]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-04T06:07:37.271232-05:00 kali sshd-session[11019]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.231.105 
+2026-11-04T06:07:37.271350-05:00 kali sshd-session[11019]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-11-04T06:07:37.271439-05:00 kali sshd-session[11019]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-11-04T06:07:38.646006-05:00 kali sshd-session[11019]: Failed password for invalid user irfan-attcker from 192.168.231.105 port 39592 ssh2
+2026-11-04T06:07:39.074086-05:00 kali sshd-session[11019]: Connection closed by invalid user irfan-attcker 192.168.231.105 port 39592 [preauth]
+2026-11-04T06:09:01.556465-05:00 kali CRON[11306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-04T06:09:01.568757-05:00 kali CRON[11306]: pam_unix(cron:session): session closed for user root
+2026-11-04T06:12:18.001838-05:00 kali systemd-logind[894]: The system will power off now!
+2026-11-04T06:12:18.025070-05:00 kali systemd-logind[894]: System is powering down.
+2026-11-04T06:12:18.110414-05:00 kali ssh-agent[2893]: exiting on signal 15
+2026-11-04T06:12:18.195892-05:00 kali su[3855]: pam_unix(su:session): session closed for user root
+2026-11-04T06:12:18.196233-05:00 kali lightdm: pam_unix(lightdm:session): session closed for user kali
+2026-11-10T11:43:41.162464-05:00 kali systemd-logind[874]: New seat seat0.
+2026-11-10T11:43:42.651318-05:00 kali systemd-logind[874]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-11-10T11:43:42.653144-05:00 kali systemd-logind[874]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-11-10T11:43:42.732859-05:00 kali systemd-logind[874]: Watching system buttons on /dev/input/event6 (VMware VMware Virtual USB Keyboard)
+2026-11-10T11:43:43.649561-05:00 kali sshd[1151]: Server listening on 0.0.0.0 port 22.
+2026-11-10T11:43:43.649633-05:00 kali sshd[1151]: Server listening on :: port 22.
+2026-11-10T11:43:46.368469-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-10T11:43:46.431820-05:00 kali systemd-logind[874]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-11-10T11:43:46.503071-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-11-10T11:43:46.504635-05:00 kali systemd-logind[874]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-11-10T11:43:46.818843-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-11-10T11:43:54.798921-05:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-11-10T11:43:54.799000-05:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-11-10T11:43:55.023294-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-10T11:43:55.023378-05:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-11-10T11:43:55.033000-05:00 kali systemd-logind[874]: Removed session c1.
+2026-11-10T11:43:55.036840-05:00 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-10T11:43:55.066384-05:00 kali systemd-logind[874]: New session '2' of user 'kali' with class 'user' and type 'x11'.
+2026-11-10T11:43:55.137771-05:00 kali (systemd): pam_unix(systemd-user:session): session opened for user kali(uid=1000) by kali(uid=0)
+2026-11-10T11:43:55.151862-05:00 kali systemd-logind[874]: New session '3' of user 'kali' with class 'manager' and type 'unspecified'.
+2026-11-10T11:43:55.521963-05:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-11-10T11:44:05.330161-05:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-11-10T11:44:05.334335-05:00 kali systemd-logind[874]: Removed session 1.
+2026-11-10T11:44:11.815378-05:00 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2026-11-10T11:44:11.817181-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-11-10T11:44:11.851302-05:00 kali su[3837]: (to root) root on pts/1
+2026-11-10T11:44:11.887962-05:00 kali su[3837]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2026-11-10T11:44:34.292543-05:00 kali sudo:     root : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /root/auth.log
+2026-11-10T11:44:34.293313-05:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=0)
