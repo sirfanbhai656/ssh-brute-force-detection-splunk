@@ -1,0 +1,31 @@
+# 1. Search for failed SSH authentication events
+
+index=* "Failed password"
+
+
+# 2. Count failed SSH authentication events
+
+index=* "Failed password"
+| stats count
+
+
+# 3. Group failed attempts by source IP
+
+index=* "Failed password"
+| rex "from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
+| stats count by src_ip
+| sort - count
+
+
+# 4. Group failed attempts by username
+
+index=* "Failed password"
+| rex "Failed password for (invalid user )?(?<username>\S+)"
+| stats count by username
+| sort - count
+
+
+# 5. Examine authentication event timeline
+
+index=* "Failed password"
+| timechart span=1m count
